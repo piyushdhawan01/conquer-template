@@ -18,8 +18,10 @@
     </div>
 
     <div class="heading-img">
-       <h1>CONQUER</h1>
-       <h3>Simple Bootstrap Template</h3>
+        <div>
+            <div><h1>CONQUER</h1></div>
+            <div><h3>Simple Bootstrap Template</h3></div>
+        </div>
     </div>
 
     <div id="column-section-1">
@@ -111,12 +113,15 @@
     <div id="contact-form">
         <h1>Contact Form</h1>
         <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum mattis enim</p>
-        <div>
-            <p id="name"><input type="text" value="Name"></p>
-            <p id="email"><input type="email" value= "Email"></p>
-            <p id="subject"><input type="text" value="Subject"></p>
-        </div>
-        <input id="message" type="text" value="Your Message">
+        <div style="display: flex; justify-content: center;" >
+            <div>
+                <p id="name" style="margin-top:0px !important"><input type="text" value="Name"></p>
+                <p id="email"><input type="email" value= "Email"></p>
+                <p id="subject"><input type="text" value="Subject"></p>
+            </div>
+            <input id="message" type="text" value="Your Message">
+         </div>
+        <div><button class="submit-form">Send</button></div>
     </div>
 
 </body>
