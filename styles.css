@@ -1,0 +1,204 @@
+body {
+    margin: 0px !important;
+}
+
+#title-bar {
+    display: flex;
+    margin: 0;
+    background-color: grey;
+    justify-content: space-evenly;
+}
+
+
+.heading-img {
+    background-image: url(img/bg-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    align-content: center;
+    margin-bottom: 40px;
+    height: 250px;  
+}
+
+.heading-img h1 {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-style:normal;
+}
+
+.heading-img h3 {
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    font-style:normal;
+}
+
+#title-bar button {
+    margin: 10px;
+    font-size: 15px;
+    background-color: grey;
+    border: 0.5px solid white;
+    color: white;
+    padding: 10px;
+
+}
+
+#column-section-1 div {
+    width: 200px;
+    height: 300px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+#column-section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    margin-left: 10px;
+    text-align: left;
+}
+
+#green-button {
+    background-color: darkgreen;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#see-details {
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#red-button {
+    background-color:maroon;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#column-section-2 div {
+    width: 350px;
+    height: 500px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#column-section-2, #column-section-3 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#button-2-2 {
+    background-color: whitesmoke;
+    color: grey;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#second-image {
+    background-image: url(img/bg-2.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    margin-bottom: 40px;
+    height: 250px;
+    display: flex;
+    vertical-align: middle; 
+}
+
+#second-image h1 {
+    color: white;
+}
+
+#column-section-3 div {
+    width: 180px;
+    align-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#column-section-3 h4 {
+    color: gray;
+}
+
+#colummn-section-3-2 button {
+    color: white;
+    background-color: grey;
+}
+#big-column {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#big-column img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#big-column div {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#big-column p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#contact-form {
+    text-align: center;
+    height: 400px;
+    width: 90%;
+    margin: auto;
+    background-image: url(img/bg-3.jpg);
+}
+
+#contact-form h1 {
+    color: white;
+    font-weight: normal;
+}
+
+#contact-form input {
+    width: 300px;
+    background-color: white;
+    color: black;
+    opacity: 0.3;
+}
+
+#contact-form div {
+    float: left;
+    position: relative;
+    left: 300px;
+}
+
+#message {
+    float: right;
+    height: 100px;
+    position: relative;
+    right: 280px;
+    background-color: white;
+    opacity: 0.3;
+    text-align: left;
+    margin: 15 auto;
+}
+
+#text {
+    background-color: white;
+    opacity: 0.3;
+    position: relative;
+    left: 300px;
+    width: 620px;
+}
